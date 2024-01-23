@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background: hsl(232, 70%, 63%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    border: .1px solid #fff;
+    
+}
+.logo{
+    user-select: none;
+    color: #fff;
+}
+.nav a{
+    position: relative;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+.nav a:hover::after{
+    transform: scaleX(1);
+}
+h1{
+    color: #060606;
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    height: 400px;
+    width: 400px;
+    margin-left: 300px;
+}
+.home{
+    display: flex;
+    justify-self: center;
+    color: #0e0d0d;
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(10, 10, 10, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    width: 600px;
+    height: auto;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+#eleventh{
+    text-decoration: underline;
+    text-align: center;
+    color: #fefefe;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.plasma{
+    background: url("Designer.jpeg");
+    background-size: cover;
+}
+.gy{
+    background: transparent;
+    border: 2px solid rgba(10, 10, 10, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    height: auto;
+    margin-left: 630px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+.gyarvi{
+    text-decoration: none;
+}
+.gyarvi:hover{
+    text-decoration: underline;
+}
+.py{
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(10, 10, 10, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    width: 200px;
+    padding: 20px;
+    justify-items: center;
+    height: auto;
+    margin-left: 680px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    height: auto;
+}
+#twelth{
+    text-decoration: underline;
+    text-align: center;
+    color: #fff;
+}
+.waves{
+    background: url("waves.jpeg");
+    background-size: cover;
+}
+.ba{
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(10, 10, 10, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    width: 600px;
+    height: auto;
+    margin-left: 430px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    width: 300px;
+    height: auto;
+    margin-left: 350px;
+}
+.barvi{
+    text-decoration: none;
+}
+.barvi:hover{
+    text-decoration: underline;
+}
