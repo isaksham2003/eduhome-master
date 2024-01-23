@@ -47,24 +47,23 @@ h1{
     color: #060606;
     text-align: center;
     text-decoration: underline;
+    margin-left: 120px;
 }
 img{
     height: 400px;
     width: 400px;
-    margin-left: 300px;
+    margin-left: 590px;
 }
 .home{
-    display: flex;
     justify-self: center;
     color: #0e0d0d;
-    position: relative;
     background: transparent;
     border: 2px solid rgba(10, 10, 10, 0.5);
     border-radius: 10px;
     backdrop-filter: blur(20px);
     width: 600px;
     height: auto;
-    margin-left: 200px;
+    margin-left: 500px;
     margin-bottom: 100px;
 }
 #eleventh{
