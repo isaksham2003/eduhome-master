@@ -44,12 +44,12 @@ h1{
 h2{
   padding-top: 10px;
   padding-left: 20px;
-  border: 2px solid gray ;
   visibility:visible;
 }
 .img{
   justify-items: center;
   margin-left:450px;
+  padding-top: 50px;
 }
 nav.navbar h1{
   height: 44px;
@@ -61,11 +61,13 @@ nav.navbar h1{
 hr{
   height: 2px;
   width: auto;
-  border: 1px solid gray;
+  border: none;
   background-color: rgb(116, 113, 113);
+
 }
 .btn{
-  padding-top:20px;
+  margin-top: 50px;
+  padding-top:40px;
   padding-bottom:30px;
   padding-left:20px;
   height:60px;
